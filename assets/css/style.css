@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: 10%;
+}
+label{
+    font-size: 35px;
+}
+div{
+    padding: 1% 0 1% 0;
+}
+#firstname{
+    padding: 5px;
+    width: 173px;
+    
+}
+#lastname{
+    padding: 5px;
+    width: 173px;
+    
+}
+#email{
+    display: block;
+}
+
+#area{
+    display: block;
+}
+
+#email{
+    padding: 5px;
+    width: 350px;
+}
+#thema{
+    padding: 5px;
+    display: block;
+    width: 350px;
+    position: relative;
+}
+#sub{
+    width: 353px;
+    height: 28px;    
+    background-color: rgb(103, 180, 252);
+}
+label::after{
+    content: '*';
+    color:red;
+}
